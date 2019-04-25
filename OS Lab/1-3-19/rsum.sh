@@ -1,5 +1,4 @@
-#!/bin/bash
-x=5
-y=10
-ans=$(( x + y ))
-echo "$x + $y = $ans"
+a=686
+b=228.35
+c=`echo $a + $b | bc`
+echo "$c"
